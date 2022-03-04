@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E25034C26D6BA4F006649B4 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25034B26D6BA4F006649B4 /* MainNavigationController.swift */; };
+		1E903BCF26D700B700F4EC4E /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E903BCD26D700B700F4EC4E /* CollapsibleTableViewCell.swift */; };
+		1E903BD026D700B700F4EC4E /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E903BCE26D700B700F4EC4E /* MyTableViewCell.xib */; };
+		1EA02B3F2723305D00508768 /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA02B3E2723305D00508768 /* TableCellView.swift */; };
+		1EBFF75226D5FB5C00419244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF75126D5FB5C00419244 /* AppDelegate.swift */; };
+		1EBFF75426D5FB5C00419244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF75326D5FB5C00419244 /* SceneDelegate.swift */; };
+		1EBFF75626D5FB5C00419244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF75526D5FB5C00419244 /* ViewController.swift */; };
+		1EBFF75926D5FB5C00419244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBFF75726D5FB5C00419244 /* Main.storyboard */; };
+		1EBFF75C26D5FB5C00419244 /* Sensory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF75A26D5FB5C00419244 /* Sensory.xcdatamodeld */; };
+		1EBFF76126D5FB5E00419244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBFF75F26D5FB5E00419244 /* LaunchScreen.storyboard */; };
+		1EBFF76C26D5FB5E00419244 /* SensoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF76B26D5FB5E00419244 /* SensoryTests.swift */; };
+		1EBFF77726D5FB5E00419244 /* SensoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF77626D5FB5E00419244 /* SensoryUITests.swift */; };
+		1EBFF78926D6061100419244 /* MyMoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF78826D6061100419244 /* MyMoodViewController.swift */; };
+		1EBFF78B26D6062200419244 /* MySensationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBFF78A26D6062200419244 /* MySensationsViewController.swift */; };
+		1ED9B01326D9594C0062373C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9B01226D9594C0062373C /* Assets.xcassets */; };
+		1ED9B01626DEA83C0062373C /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9B01426DEA83C0062373C /* PeopleCollectionViewCell.swift */; };
+		1ED9B01726DEA83C0062373C /* PeopleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ED9B01526DEA83C0062373C /* PeopleCollectionViewCell.xib */; };
+		5CBEF28272DAA19719BD7A54 /* Pods_Sensory_SensoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14398D6E507AB2EA27C4C31 /* Pods_Sensory_SensoryUITests.framework */; };
+		9C4ECA77E16A1F0E9DB6EFDE /* Pods_SensoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114F96B428368A84DCBAD22E /* Pods_SensoryTests.framework */; };
+		CFD80A902584048BC20F76DD /* Pods_Sensory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C2060069E92C761305BFC7 /* Pods_Sensory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBFF76826D5FB5E00419244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBFF74626D5FB5C00419244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBFF74D26D5FB5C00419244;
+			remoteInfo = Sensory;
+		};
+		1EBFF77326D5FB5E00419244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBFF74626D5FB5C00419244 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBFF74D26D5FB5C00419244;
+			remoteInfo = Sensory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114F96B428368A84DCBAD22E /* Pods_SensoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SensoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E25034B26D6BA4F006649B4 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		1E903BCD26D700B700F4EC4E /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		1E903BCE26D700B700F4EC4E /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		1EA02B3E2723305D00508768 /* TableCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
+		1EBFF74E26D5FB5C00419244 /* Sensory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sensory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFF75126D5FB5C00419244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EBFF75326D5FB5C00419244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EBFF75526D5FB5C00419244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBFF75826D5FB5C00419244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBFF75B26D5FB5C00419244 /* Sensory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sensory.xcdatamodel; sourceTree = "<group>"; };
+		1EBFF76026D5FB5E00419244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBFF76226D5FB5E00419244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBFF76726D5FB5E00419244 /* SensoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFF76B26D5FB5E00419244 /* SensoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryTests.swift; sourceTree = "<group>"; };
+		1EBFF76D26D5FB5E00419244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBFF77226D5FB5E00419244 /* SensoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBFF77626D5FB5E00419244 /* SensoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensoryUITests.swift; sourceTree = "<group>"; };
+		1EBFF77826D5FB5E00419244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBFF78826D6061100419244 /* MyMoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoodViewController.swift; sourceTree = "<group>"; };
+		1EBFF78A26D6062200419244 /* MySensationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySensationsViewController.swift; sourceTree = "<group>"; };
+		1ED9B01226D9594C0062373C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED9B01426DEA83C0062373C /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		1ED9B01526DEA83C0062373C /* PeopleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeopleCollectionViewCell.xib; sourceTree = "<group>"; };
+		28F9313AFE8AAF40D565248A /* Pods-Sensory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensory.debug.xcconfig"; path = "Target Support Files/Pods-Sensory/Pods-Sensory.debug.xcconfig"; sourceTree = "<group>"; };
+		63C2060069E92C761305BFC7 /* Pods_Sensory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EC6CDC0457BD2A0C956CA6 /* Pods-Sensory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensory.release.xcconfig"; path = "Target Support Files/Pods-Sensory/Pods-Sensory.release.xcconfig"; sourceTree = "<group>"; };
+		A5CB66D059A63708D2135BB6 /* Pods-SensoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensoryTests.debug.xcconfig"; path = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BF245CB861AF51A6FDEBCB /* Pods-Sensory-SensoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensory-SensoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C09504AEA41FFBB2B39725FB /* Pods-Sensory-SensoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sensory-SensoryUITests.release.xcconfig"; path = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D14398D6E507AB2EA27C4C31 /* Pods_Sensory_SensoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sensory_SensoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EB22CE9702C156F2A797FF /* Pods-SensoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SensoryTests.release.xcconfig"; path = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBFF74B26D5FB5C00419244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD80A902584048BC20F76DD /* Pods_Sensory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF76426D5FB5E00419244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4ECA77E16A1F0E9DB6EFDE /* Pods_SensoryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF76F26D5FB5E00419244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBEF28272DAA19719BD7A54 /* Pods_Sensory_SensoryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBFF74526D5FB5C00419244 = {
+			isa = PBXGroup;
+			children = (
+				1EBFF75026D5FB5C00419244 /* Sensory */,
+				1EBFF76A26D5FB5E00419244 /* SensoryTests */,
+				1EBFF77526D5FB5E00419244 /* SensoryUITests */,
+				1EBFF74F26D5FB5C00419244 /* Products */,
+				DFE8B0972963D924DC93B559 /* Pods */,
+				DD958CFB4AE9BB378E81F408 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBFF74F26D5FB5C00419244 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFF74E26D5FB5C00419244 /* Sensory.app */,
+				1EBFF76726D5FB5E00419244 /* SensoryTests.xctest */,
+				1EBFF77226D5FB5E00419244 /* SensoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBFF75026D5FB5C00419244 /* Sensory */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFF75126D5FB5C00419244 /* AppDelegate.swift */,
+				1EBFF75326D5FB5C00419244 /* SceneDelegate.swift */,
+				1EBFF75526D5FB5C00419244 /* ViewController.swift */,
+				1E25034B26D6BA4F006649B4 /* MainNavigationController.swift */,
+				1ED9B01226D9594C0062373C /* Assets.xcassets */,
+				1EBFF75726D5FB5C00419244 /* Main.storyboard */,
+				1EBFF78826D6061100419244 /* MyMoodViewController.swift */,
+				1ED9B01426DEA83C0062373C /* PeopleCollectionViewCell.swift */,
+				1ED9B01526DEA83C0062373C /* PeopleCollectionViewCell.xib */,
+				1EBFF78A26D6062200419244 /* MySensationsViewController.swift */,
+				1EBFF75F26D5FB5E00419244 /* LaunchScreen.storyboard */,
+				1EBFF76226D5FB5E00419244 /* Info.plist */,
+				1EBFF75A26D5FB5C00419244 /* Sensory.xcdatamodeld */,
+				1E903BCD26D700B700F4EC4E /* CollapsibleTableViewCell.swift */,
+				1EA02B3E2723305D00508768 /* TableCellView.swift */,
+				1E903BCE26D700B700F4EC4E /* MyTableViewCell.xib */,
+			);
+			path = Sensory;
+			sourceTree = "<group>";
+		};
+		1EBFF76A26D5FB5E00419244 /* SensoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFF76B26D5FB5E00419244 /* SensoryTests.swift */,
+				1EBFF76D26D5FB5E00419244 /* Info.plist */,
+			);
+			path = SensoryTests;
+			sourceTree = "<group>";
+		};
+		1EBFF77526D5FB5E00419244 /* SensoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBFF77626D5FB5E00419244 /* SensoryUITests.swift */,
+				1EBFF77826D5FB5E00419244 /* Info.plist */,
+			);
+			path = SensoryUITests;
+			sourceTree = "<group>";
+		};
+		DD958CFB4AE9BB378E81F408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C2060069E92C761305BFC7 /* Pods_Sensory.framework */,
+				D14398D6E507AB2EA27C4C31 /* Pods_Sensory_SensoryUITests.framework */,
+				114F96B428368A84DCBAD22E /* Pods_SensoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFE8B0972963D924DC93B559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F9313AFE8AAF40D565248A /* Pods-Sensory.debug.xcconfig */,
+				75EC6CDC0457BD2A0C956CA6 /* Pods-Sensory.release.xcconfig */,
+				A6BF245CB861AF51A6FDEBCB /* Pods-Sensory-SensoryUITests.debug.xcconfig */,
+				C09504AEA41FFBB2B39725FB /* Pods-Sensory-SensoryUITests.release.xcconfig */,
+				A5CB66D059A63708D2135BB6 /* Pods-SensoryTests.debug.xcconfig */,
+				D2EB22CE9702C156F2A797FF /* Pods-SensoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBFF74D26D5FB5C00419244 /* Sensory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFF77B26D5FB5E00419244 /* Build configuration list for PBXNativeTarget "Sensory" */;
+			buildPhases = (
+				21FF882B59ED23F281509D4B /* [CP] Check Pods Manifest.lock */,
+				1EBFF74A26D5FB5C00419244 /* Sources */,
+				1EBFF74B26D5FB5C00419244 /* Frameworks */,
+				1EBFF74C26D5FB5C00419244 /* Resources */,
+				2FA87DAC0367D7AFC3533F4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sensory;
+			productName = Sensory;
+			productReference = 1EBFF74E26D5FB5C00419244 /* Sensory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBFF76626D5FB5E00419244 /* SensoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFF77E26D5FB5E00419244 /* Build configuration list for PBXNativeTarget "SensoryTests" */;
+			buildPhases = (
+				9E3720294F82B9B58CFCDB5A /* [CP] Check Pods Manifest.lock */,
+				1EBFF76326D5FB5E00419244 /* Sources */,
+				1EBFF76426D5FB5E00419244 /* Frameworks */,
+				1EBFF76526D5FB5E00419244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBFF76926D5FB5E00419244 /* PBXTargetDependency */,
+			);
+			name = SensoryTests;
+			productName = SensoryTests;
+			productReference = 1EBFF76726D5FB5E00419244 /* SensoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBFF77126D5FB5E00419244 /* SensoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBFF78126D5FB5E00419244 /* Build configuration list for PBXNativeTarget "SensoryUITests" */;
+			buildPhases = (
+				06EFDBEF81AD72A91D399A5D /* [CP] Check Pods Manifest.lock */,
+				1EBFF76E26D5FB5E00419244 /* Sources */,
+				1EBFF76F26D5FB5E00419244 /* Frameworks */,
+				1EBFF77026D5FB5E00419244 /* Resources */,
+				3194A6D4ECB048E94B326DFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBFF77426D5FB5E00419244 /* PBXTargetDependency */,
+			);
+			name = SensoryUITests;
+			productName = SensoryUITests;
+			productReference = 1EBFF77226D5FB5E00419244 /* SensoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBFF74626D5FB5C00419244 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1EBFF74D26D5FB5C00419244 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					1EBFF76626D5FB5E00419244 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1EBFF74D26D5FB5C00419244;
+					};
+					1EBFF77126D5FB5E00419244 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 1EBFF74D26D5FB5C00419244;
+					};
+				};
+			};
+			buildConfigurationList = 1EBFF74926D5FB5C00419244 /* Build configuration list for PBXProject "Sensory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBFF74526D5FB5C00419244;
+			productRefGroup = 1EBFF74F26D5FB5C00419244 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBFF74D26D5FB5C00419244 /* Sensory */,
+				1EBFF76626D5FB5E00419244 /* SensoryTests */,
+				1EBFF77126D5FB5E00419244 /* SensoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBFF74C26D5FB5C00419244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFF76126D5FB5E00419244 /* LaunchScreen.storyboard in Resources */,
+				1E903BD026D700B700F4EC4E /* MyTableViewCell.xib in Resources */,
+				1ED9B01326D9594C0062373C /* Assets.xcassets in Resources */,
+				1EBFF75926D5FB5C00419244 /* Main.storyboard in Resources */,
+				1ED9B01726DEA83C0062373C /* PeopleCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF76526D5FB5E00419244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF77026D5FB5E00419244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EFDBEF81AD72A91D399A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sensory-SensoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21FF882B59ED23F281509D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sensory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA87DAC0367D7AFC3533F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensory/Pods-Sensory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensory/Pods-Sensory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sensory/Pods-Sensory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3194A6D4ECB048E94B326DFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3720294F82B9B58CFCDB5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SensoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBFF74A26D5FB5C00419244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFF78B26D6062200419244 /* MySensationsViewController.swift in Sources */,
+				1E903BCF26D700B700F4EC4E /* CollapsibleTableViewCell.swift in Sources */,
+				1EBFF75626D5FB5C00419244 /* ViewController.swift in Sources */,
+				1EBFF78926D6061100419244 /* MyMoodViewController.swift in Sources */,
+				1EBFF75226D5FB5C00419244 /* AppDelegate.swift in Sources */,
+				1E25034C26D6BA4F006649B4 /* MainNavigationController.swift in Sources */,
+				1EBFF75426D5FB5C00419244 /* SceneDelegate.swift in Sources */,
+				1EA02B3F2723305D00508768 /* TableCellView.swift in Sources */,
+				1EBFF75C26D5FB5C00419244 /* Sensory.xcdatamodeld in Sources */,
+				1ED9B01626DEA83C0062373C /* PeopleCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF76326D5FB5E00419244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFF76C26D5FB5E00419244 /* SensoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBFF76E26D5FB5E00419244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFF77726D5FB5E00419244 /* SensoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBFF76926D5FB5E00419244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBFF74D26D5FB5C00419244 /* Sensory */;
+			targetProxy = 1EBFF76826D5FB5E00419244 /* PBXContainerItemProxy */;
+		};
+		1EBFF77426D5FB5E00419244 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBFF74D26D5FB5C00419244 /* Sensory */;
+			targetProxy = 1EBFF77326D5FB5E00419244 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBFF75726D5FB5C00419244 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBFF75826D5FB5C00419244 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBFF75F26D5FB5E00419244 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBFF76026D5FB5E00419244 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBFF77926D5FB5E00419244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EBFF77A26D5FB5E00419244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBFF77C26D5FB5E00419244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F9313AFE8AAF40D565248A /* Pods-Sensory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = Sensory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.Sensory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBFF77D26D5FB5E00419244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EC6CDC0457BD2A0C956CA6 /* Pods-Sensory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = Sensory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.Sensory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EBFF77F26D5FB5E00419244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CB66D059A63708D2135BB6 /* Pods-SensoryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = SensoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.SensoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensory.app/Sensory";
+			};
+			name = Debug;
+		};
+		1EBFF78026D5FB5E00419244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EB22CE9702C156F2A797FF /* Pods-SensoryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = SensoryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.SensoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sensory.app/Sensory";
+			};
+			name = Release;
+		};
+		1EBFF78226D5FB5E00419244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BF245CB861AF51A6FDEBCB /* Pods-Sensory-SensoryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = SensoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.SensoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sensory;
+			};
+			name = Debug;
+		};
+		1EBFF78326D5FB5E00419244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09504AEA41FFBB2B39725FB /* Pods-Sensory-SensoryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AXFHUW5386;
+				INFOPLIST_FILE = SensoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Silas.SensoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sensory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBFF74926D5FB5C00419244 /* Build configuration list for PBXProject "Sensory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFF77926D5FB5E00419244 /* Debug */,
+				1EBFF77A26D5FB5E00419244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFF77B26D5FB5E00419244 /* Build configuration list for PBXNativeTarget "Sensory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFF77C26D5FB5E00419244 /* Debug */,
+				1EBFF77D26D5FB5E00419244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFF77E26D5FB5E00419244 /* Build configuration list for PBXNativeTarget "SensoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFF77F26D5FB5E00419244 /* Debug */,
+				1EBFF78026D5FB5E00419244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBFF78126D5FB5E00419244 /* Build configuration list for PBXNativeTarget "SensoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBFF78226D5FB5E00419244 /* Debug */,
+				1EBFF78326D5FB5E00419244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EBFF75A26D5FB5C00419244 /* Sensory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EBFF75B26D5FB5C00419244 /* Sensory.xcdatamodel */,
+			);
+			currentVersion = 1EBFF75B26D5FB5C00419244 /* Sensory.xcdatamodel */;
+			path = Sensory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1EBFF74626D5FB5C00419244 /* Project object */;
+}

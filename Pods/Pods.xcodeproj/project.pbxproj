@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD881F3E38554A77EE01E570BB5F2B0 /* Pods-Sensory-SensoryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC53D557AABFF07FF8D2727D434E49C /* Pods-Sensory-SensoryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20BA600C3794A530DC34311396F9B1A5 /* Pods-Sensory-SensoryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47163968B1CC3265365C21F8DD748B5E /* Pods-Sensory-SensoryUITests-dummy.m */; };
+		2F36A1870905B280B3275DB640F97742 /* Pods-SensoryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78EF18EA64A1D162FEBC65E96CFC0A80 /* Pods-SensoryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305C5F43F60900EB61F5AA4213E142D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		4017551660B4B65F76A11870A7F47719 /* iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D7D9237A3C380568000DCB51C2E42C /* iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		420AA6CB1DDB2790CFC749D13F30DFDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		514862FBCE85BC962789B5BDE117F41D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
+		5C0DC51EB5BBB61D1EC7687F5DFAEF74 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E564CB0369451A26BCF85C69A8373E9 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB8162D124F94C963B5C7D9F9051341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		6C493EB10506C0E0B0A16462B17D0B75 /* Pods-Sensory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38328E3D99042026C3CE8E00F1A43208 /* Pods-Sensory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AE53EA1BEC196BF41C1C2C27D8A797 /* Pods-Sensory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA0652E816845DCDA6389CAB443E42F /* Pods-Sensory-dummy.m */; };
+		A7E0D1137B72DD8A3999509196ACACFE /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD82BBE1B02D7FB2C31BD37672A2D2 /* iCarousel-dummy.m */; };
+		AC44EC1F94C4AAEA4CB08AB9A1203C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		C53E36A6F83629A6C3D4B4FB52A9711F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7D01ADEDD1776E999C158FA646656 /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EDF9AAA211A65A90B65FA36FD67AF057 /* Pods-SensoryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DCB09E271497B0EDEB2542C1EC000A /* Pods-SensoryTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E5875963B107159CD43975919C6DFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548E0F26A10990707D8D4870D2490ACC;
+			remoteInfo = iCarousel;
+		};
+		6BCF7D2B9F4DDFAAB0DCADA8E7013222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B46FDA192474CCE931B07D1E9681D2;
+			remoteInfo = "Pods-Sensory";
+		};
+		B92312A509993320E3DACB29BF20DDE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 548E0F26A10990707D8D4870D2490ACC;
+			remoteInfo = iCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6EAF54FA4BCB3F61EC1A8291ACC17B /* Pods-SensoryTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SensoryTests-Info.plist"; sourceTree = "<group>"; };
+		0FD893EF97965575BBD724A4C7BAFE31 /* Pods-Sensory-SensoryUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sensory-SensoryUITests-Info.plist"; sourceTree = "<group>"; };
+		1E8B25B20083003F3377C2351D742F69 /* Pods-Sensory-SensoryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sensory-SensoryUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2DC3A104CBF9D9A9959E4775A9230C04 /* Pods-Sensory-SensoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sensory-SensoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		323F01EE6FC7F741B787EC63FAFE030A /* Pods-Sensory-SensoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sensory-SensoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38328E3D99042026C3CE8E00F1A43208 /* Pods-Sensory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sensory-umbrella.h"; sourceTree = "<group>"; };
+		38C865C8E58C611897EFAADBA1C2F510 /* Pods-SensoryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SensoryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		390CD91F08CEBBB2EB591BC15231FCD6 /* iCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.release.xcconfig; sourceTree = "<group>"; };
+		41D3248016354342613F91DACBCC5FDC /* Pods-SensoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SensoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47163968B1CC3265365C21F8DD748B5E /* Pods-Sensory-SensoryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sensory-SensoryUITests-dummy.m"; sourceTree = "<group>"; };
+		4BD0A52802F4818AE3BF220E8340FDE2 /* Pods-Sensory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sensory-frameworks.sh"; sourceTree = "<group>"; };
+		4BDD82BBE1B02D7FB2C31BD37672A2D2 /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
+		53EFE014C7AF30786AD2121A370AB8CC /* Pods-Sensory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sensory.modulemap"; sourceTree = "<group>"; };
+		5E564CB0369451A26BCF85C69A8373E9 /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		5E76D6AE5DF07F7E80B8932E3495F1BE /* Pods-Sensory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sensory.debug.xcconfig"; sourceTree = "<group>"; };
+		617A20B02AD80EDA6D217281ACE05584 /* Pods-Sensory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sensory-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62D7D9237A3C380568000DCB51C2E42C /* iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		669F4AB8BB25C73E6FF3F4233AC46CDC /* iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iCarousel.modulemap; sourceTree = "<group>"; };
+		6954847592AA6ECBEF07B0895531BF14 /* Pods-Sensory-SensoryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sensory-SensoryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BA8761FF37C3F0959CBAD5CE4F21B48 /* Pods-SensoryTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SensoryTests"; path = Pods_SensoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78EF18EA64A1D162FEBC65E96CFC0A80 /* Pods-SensoryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SensoryTests-umbrella.h"; sourceTree = "<group>"; };
+		7955EAD498CBA804E464AE757D001B9D /* Pods-Sensory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sensory.release.xcconfig"; sourceTree = "<group>"; };
+		7A8CBB51450D184B1748C09DE43CE0A0 /* Pods-Sensory-SensoryUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Sensory-SensoryUITests"; path = Pods_Sensory_SensoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EAECD6C97071A0E378D09C3DE3EE0B /* Pods-SensoryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SensoryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		973CBBB13762B2623DD39C6A0D2D7F30 /* Pods-Sensory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sensory-Info.plist"; sourceTree = "<group>"; };
+		9B091CC7FE89BCFE1A4BE0FA270369CB /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABA0652E816845DCDA6389CAB443E42F /* Pods-Sensory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sensory-dummy.m"; sourceTree = "<group>"; };
+		ACB7D01ADEDD1776E999C158FA646656 /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		AE5145D7234C78739128D6C5C4CE4ADD /* iCarousel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iCarousel-Info.plist"; sourceTree = "<group>"; };
+		B1DCB09E271497B0EDEB2542C1EC000A /* Pods-SensoryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SensoryTests-dummy.m"; sourceTree = "<group>"; };
+		B6C7944B14E6198387EC61A4C1FAE6EC /* Pods-Sensory-SensoryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sensory-SensoryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C0BEF3FD5746C9E64794476FC7C4BCE2 /* Pods-Sensory */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Sensory"; path = Pods_Sensory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FF0445F0B14F439CFA1451FD91096C /* iCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.debug.xcconfig; sourceTree = "<group>"; };
+		C8217EB109A6A34051F09192C29B676F /* iCarousel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iCarousel; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC53D557AABFF07FF8D2727D434E49C /* Pods-Sensory-SensoryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sensory-SensoryUITests-umbrella.h"; sourceTree = "<group>"; };
+		DDB9FEE98BBB760C5E768C381057DDA9 /* Pods-Sensory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sensory-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB48B1EC1427567C85CE2C7841DDC36B /* Pods-SensoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SensoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		F076C4C734812DE64222804661D61E57 /* Pods-SensoryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SensoryTests.modulemap"; sourceTree = "<group>"; };
+		F6625EB584A049B5028F20BF48F5A11C /* Pods-Sensory-SensoryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sensory-SensoryUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5609CF94BDDCC46D4F865FCFAC06AD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC44EC1F94C4AAEA4CB08AB9A1203C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FFF47D3B4A67F95B5FB590131957E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420AA6CB1DDB2790CFC749D13F30DFDE /* Foundation.framework in Frameworks */,
+				514862FBCE85BC962789B5BDE117F41D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95A3BD4E2C10624E9FC82CFC0D797EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C5F43F60900EB61F5AA4213E142D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE250E23DEBBA21B50B5FEF522D5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DB8162D124F94C963B5C7D9F9051341 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D325A42620E7427FB70FB046C7B7B240 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E24E3B07158E02E89F2B3F11152341C /* Pods-Sensory-SensoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6625EB584A049B5028F20BF48F5A11C /* Pods-Sensory-SensoryUITests.modulemap */,
+				B6C7944B14E6198387EC61A4C1FAE6EC /* Pods-Sensory-SensoryUITests-acknowledgements.markdown */,
+				6954847592AA6ECBEF07B0895531BF14 /* Pods-Sensory-SensoryUITests-acknowledgements.plist */,
+				47163968B1CC3265365C21F8DD748B5E /* Pods-Sensory-SensoryUITests-dummy.m */,
+				1E8B25B20083003F3377C2351D742F69 /* Pods-Sensory-SensoryUITests-frameworks.sh */,
+				0FD893EF97965575BBD724A4C7BAFE31 /* Pods-Sensory-SensoryUITests-Info.plist */,
+				CEC53D557AABFF07FF8D2727D434E49C /* Pods-Sensory-SensoryUITests-umbrella.h */,
+				2DC3A104CBF9D9A9959E4775A9230C04 /* Pods-Sensory-SensoryUITests.debug.xcconfig */,
+				323F01EE6FC7F741B787EC63FAFE030A /* Pods-Sensory-SensoryUITests.release.xcconfig */,
+			);
+			name = "Pods-Sensory-SensoryUITests";
+			path = "Target Support Files/Pods-Sensory-SensoryUITests";
+			sourceTree = "<group>";
+		};
+		5CEF75A747FC9529BAF547FABB99FC53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8217EB109A6A34051F09192C29B676F /* iCarousel */,
+				C0BEF3FD5746C9E64794476FC7C4BCE2 /* Pods-Sensory */,
+				7A8CBB51450D184B1748C09DE43CE0A0 /* Pods-Sensory-SensoryUITests */,
+				6BA8761FF37C3F0959CBAD5CE4F21B48 /* Pods-SensoryTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC3E528B405B03E5D70B483ED3E70B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF89AF8C872A9540E235278F3CDC06E6 /* Pods-Sensory */,
+				1E24E3B07158E02E89F2B3F11152341C /* Pods-Sensory-SensoryUITests */,
+				ED3AA38C5ED2E007C4778EDA2BB1DE5A /* Pods-SensoryTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				ED2AD11940207C53D20D5B7EFE14961D /* Pods */,
+				5CEF75A747FC9529BAF547FABB99FC53 /* Products */,
+				BFC3E528B405B03E5D70B483ED3E70B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */,
+				2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E091E4137FF739E0BC8C50B03E5646A0 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				5E564CB0369451A26BCF85C69A8373E9 /* iCarousel.h */,
+				ACB7D01ADEDD1776E999C158FA646656 /* iCarousel.m */,
+				F2F971C9940EF076917CAB6BBC9D185A /* Support Files */,
+			);
+			name = iCarousel;
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		ED2AD11940207C53D20D5B7EFE14961D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E091E4137FF739E0BC8C50B03E5646A0 /* iCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED3AA38C5ED2E007C4778EDA2BB1DE5A /* Pods-SensoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F076C4C734812DE64222804661D61E57 /* Pods-SensoryTests.modulemap */,
+				81EAECD6C97071A0E378D09C3DE3EE0B /* Pods-SensoryTests-acknowledgements.markdown */,
+				38C865C8E58C611897EFAADBA1C2F510 /* Pods-SensoryTests-acknowledgements.plist */,
+				B1DCB09E271497B0EDEB2542C1EC000A /* Pods-SensoryTests-dummy.m */,
+				0C6EAF54FA4BCB3F61EC1A8291ACC17B /* Pods-SensoryTests-Info.plist */,
+				78EF18EA64A1D162FEBC65E96CFC0A80 /* Pods-SensoryTests-umbrella.h */,
+				41D3248016354342613F91DACBCC5FDC /* Pods-SensoryTests.debug.xcconfig */,
+				EB48B1EC1427567C85CE2C7841DDC36B /* Pods-SensoryTests.release.xcconfig */,
+			);
+			name = "Pods-SensoryTests";
+			path = "Target Support Files/Pods-SensoryTests";
+			sourceTree = "<group>";
+		};
+		EF89AF8C872A9540E235278F3CDC06E6 /* Pods-Sensory */ = {
+			isa = PBXGroup;
+			children = (
+				53EFE014C7AF30786AD2121A370AB8CC /* Pods-Sensory.modulemap */,
+				617A20B02AD80EDA6D217281ACE05584 /* Pods-Sensory-acknowledgements.markdown */,
+				DDB9FEE98BBB760C5E768C381057DDA9 /* Pods-Sensory-acknowledgements.plist */,
+				ABA0652E816845DCDA6389CAB443E42F /* Pods-Sensory-dummy.m */,
+				4BD0A52802F4818AE3BF220E8340FDE2 /* Pods-Sensory-frameworks.sh */,
+				973CBBB13762B2623DD39C6A0D2D7F30 /* Pods-Sensory-Info.plist */,
+				38328E3D99042026C3CE8E00F1A43208 /* Pods-Sensory-umbrella.h */,
+				5E76D6AE5DF07F7E80B8932E3495F1BE /* Pods-Sensory.debug.xcconfig */,
+				7955EAD498CBA804E464AE757D001B9D /* Pods-Sensory.release.xcconfig */,
+			);
+			name = "Pods-Sensory";
+			path = "Target Support Files/Pods-Sensory";
+			sourceTree = "<group>";
+		};
+		F2F971C9940EF076917CAB6BBC9D185A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				669F4AB8BB25C73E6FF3F4233AC46CDC /* iCarousel.modulemap */,
+				4BDD82BBE1B02D7FB2C31BD37672A2D2 /* iCarousel-dummy.m */,
+				AE5145D7234C78739128D6C5C4CE4ADD /* iCarousel-Info.plist */,
+				9B091CC7FE89BCFE1A4BE0FA270369CB /* iCarousel-prefix.pch */,
+				62D7D9237A3C380568000DCB51C2E42C /* iCarousel-umbrella.h */,
+				C7FF0445F0B14F439CFA1451FD91096C /* iCarousel.debug.xcconfig */,
+				390CD91F08CEBBB2EB591BC15231FCD6 /* iCarousel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0305CD7621B44AB3A6707D5173188DE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F36A1870905B280B3275DB640F97742 /* Pods-SensoryTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9705E51AF1B8140CB6E0FB181104B749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0DC51EB5BBB61D1EC7687F5DFAEF74 /* iCarousel.h in Headers */,
+				4017551660B4B65F76A11870A7F47719 /* iCarousel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5A4AB2E51ED85A896ABF7D9816F939F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD881F3E38554A77EE01E570BB5F2B0 /* Pods-Sensory-SensoryUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D968DB951A3D49D3278FF73AAD30A1D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C493EB10506C0E0B0A16462B17D0B75 /* Pods-Sensory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BB5F2DB0CA8E13D92992A90A84E2069 /* Pods-SensoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32CF3C0251A2EBC9D0C13B0BD0616C87 /* Build configuration list for PBXNativeTarget "Pods-SensoryTests" */;
+			buildPhases = (
+				0305CD7621B44AB3A6707D5173188DE3 /* Headers */,
+				BA6BBA435AD8BBF9131115BD5DD24D77 /* Sources */,
+				FFE250E23DEBBA21B50B5FEF522D5942 /* Frameworks */,
+				046C2551954B097004B18CFFDA0BE05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7E959EB520DB8EC19DF4491E14545A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SensoryTests";
+			productName = Pods_SensoryTests;
+			productReference = 6BA8761FF37C3F0959CBAD5CE4F21B48 /* Pods-SensoryTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		548E0F26A10990707D8D4870D2490ACC /* iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB9764CEAD02DF3D818053FCDA3A4D /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildPhases = (
+				9705E51AF1B8140CB6E0FB181104B749 /* Headers */,
+				4F2658FB84350F9989FC6A895D703D53 /* Sources */,
+				B5FFF47D3B4A67F95B5FB590131957E4 /* Frameworks */,
+				61890E058690B58E3E8D8184153F5CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarousel;
+			productName = iCarousel;
+			productReference = C8217EB109A6A34051F09192C29B676F /* iCarousel */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C6C5FAB05E53F5AC55CFDC0ED9383A /* Pods-Sensory-SensoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE43CED45F5A303BB3CA0B6EEB15BA8 /* Build configuration list for PBXNativeTarget "Pods-Sensory-SensoryUITests" */;
+			buildPhases = (
+				D5A4AB2E51ED85A896ABF7D9816F939F /* Headers */,
+				5BCBA6A1949D144879940A96B2E2B1EA /* Sources */,
+				E95A3BD4E2C10624E9FC82CFC0D797EB /* Frameworks */,
+				74AADFDE82CFBE90DBE0D5921EDDDC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22C55267C55369E8D2C88F666C63931 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sensory-SensoryUITests";
+			productName = Pods_Sensory_SensoryUITests;
+			productReference = 7A8CBB51450D184B1748C09DE43CE0A0 /* Pods-Sensory-SensoryUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4B46FDA192474CCE931B07D1E9681D2 /* Pods-Sensory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C19DE5EE1EC59936A055B898E060C5F /* Build configuration list for PBXNativeTarget "Pods-Sensory" */;
+			buildPhases = (
+				D968DB951A3D49D3278FF73AAD30A1D5 /* Headers */,
+				B9073173BD20699FFBDE9BA29B1C44E7 /* Sources */,
+				5609CF94BDDCC46D4F865FCFAC06AD78 /* Frameworks */,
+				FE66F2403646F0ADF36A8C0EA28F2B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C802665BD7B733A7AD2A5995BD3AA638 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sensory";
+			productName = Pods_Sensory;
+			productReference = C0BEF3FD5746C9E64794476FC7C4BCE2 /* Pods-Sensory */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5CEF75A747FC9529BAF547FABB99FC53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				548E0F26A10990707D8D4870D2490ACC /* iCarousel */,
+				E4B46FDA192474CCE931B07D1E9681D2 /* Pods-Sensory */,
+				A0C6C5FAB05E53F5AC55CFDC0ED9383A /* Pods-Sensory-SensoryUITests */,
+				2BB5F2DB0CA8E13D92992A90A84E2069 /* Pods-SensoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046C2551954B097004B18CFFDA0BE05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61890E058690B58E3E8D8184153F5CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AADFDE82CFBE90DBE0D5921EDDDC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE66F2403646F0ADF36A8C0EA28F2B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2658FB84350F9989FC6A895D703D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E36A6F83629A6C3D4B4FB52A9711F /* iCarousel.m in Sources */,
+				A7E0D1137B72DD8A3999509196ACACFE /* iCarousel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCBA6A1949D144879940A96B2E2B1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BA600C3794A530DC34311396F9B1A5 /* Pods-Sensory-SensoryUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9073173BD20699FFBDE9BA29B1C44E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE53EA1BEC196BF41C1C2C27D8A797 /* Pods-Sensory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6BBA435AD8BBF9131115BD5DD24D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF9AAA211A65A90B65FA36FD67AF057 /* Pods-SensoryTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22C55267C55369E8D2C88F666C63931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = 548E0F26A10990707D8D4870D2490ACC /* iCarousel */;
+			targetProxy = B92312A509993320E3DACB29BF20DDE0 /* PBXContainerItemProxy */;
+		};
+		C802665BD7B733A7AD2A5995BD3AA638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = 548E0F26A10990707D8D4870D2490ACC /* iCarousel */;
+			targetProxy = 4E5875963B107159CD43975919C6DFBE /* PBXContainerItemProxy */;
+		};
+		F7E959EB520DB8EC19DF4491E14545A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sensory";
+			target = E4B46FDA192474CCE931B07D1E9681D2 /* Pods-Sensory */;
+			targetProxy = 6BCF7D2B9F4DDFAAB0DCADA8E7013222 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4148EA6584CC7BF5879900CD91352FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7955EAD498CBA804E464AE757D001B9D /* Pods-Sensory.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sensory/Pods-Sensory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sensory/Pods-Sensory.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B6381638BF904497B44A966844F2AB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390CD91F08CEBBB2EB591BC15231FCD6 /* iCarousel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				PRODUCT_MODULE_NAME = iCarousel;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		720BF549247D496DCBCD697BD3FFC933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D3248016354342613F91DACBCC5FDC /* Pods-SensoryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74B084397AE89BED36805C5CFD8518B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323F01EE6FC7F741B787EC63FAFE030A /* Pods-Sensory-SensoryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C0077A1EBD096B0D61194A27CB01618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E76D6AE5DF07F7E80B8932E3495F1BE /* Pods-Sensory.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sensory/Pods-Sensory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sensory/Pods-Sensory.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFEA9759C5C036459F4585D016D0D383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB48B1EC1427567C85CE2C7841DDC36B /* Pods-SensoryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SensoryTests/Pods-SensoryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D505B1E311F9A66313EB378F9D23301C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC3A104CBF9D9A9959E4775A9230C04 /* Pods-Sensory-SensoryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sensory-SensoryUITests/Pods-Sensory-SensoryUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF598D717DBB5F2F912CB1BDF58C61E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FF0445F0B14F439CFA1451FD91096C /* iCarousel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iCarousel/iCarousel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iCarousel/iCarousel.modulemap";
+				PRODUCT_MODULE_NAME = iCarousel;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32CF3C0251A2EBC9D0C13B0BD0616C87 /* Build configuration list for PBXNativeTarget "Pods-SensoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720BF549247D496DCBCD697BD3FFC933 /* Debug */,
+				CFEA9759C5C036459F4585D016D0D383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BB9764CEAD02DF3D818053FCDA3A4D /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF598D717DBB5F2F912CB1BDF58C61E8 /* Debug */,
+				5B6381638BF904497B44A966844F2AB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE43CED45F5A303BB3CA0B6EEB15BA8 /* Build configuration list for PBXNativeTarget "Pods-Sensory-SensoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D505B1E311F9A66313EB378F9D23301C /* Debug */,
+				74B084397AE89BED36805C5CFD8518B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C19DE5EE1EC59936A055B898E060C5F /* Build configuration list for PBXNativeTarget "Pods-Sensory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0077A1EBD096B0D61194A27CB01618 /* Debug */,
+				4148EA6584CC7BF5879900CD91352FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
